@@ -11,8 +11,8 @@ namespace SocketTcpClient
 {
     class Program
     {
-        static string address = "88.212.241.115";
-        static int port = 2013;
+        static string address = "";
+        static int port = 0;
 
         static List<int> list = new List<int>();
         static object locker = new object();
